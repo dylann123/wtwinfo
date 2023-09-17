@@ -1,0 +1,113 @@
+#left-container {
+    position: absolute;
+    left: 0vw;
+    top: 0vh;
+    width: 80vw;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.left-container-object {
+    background-color: white;
+    border-radius: 10px;
+    height: 100px;
+    margin: 5px;
+    width: 23vw;
+    padding: 10px;
+    user-select: none;
+    float: left;
+}
+#left-container-bottom {
+    position: relative;
+    width: 77.2vw;
+    height: 43vh;
+    border: 1px black solid;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    overflow-y: scroll;
+}
+
+#right-container {
+    position: absolute;
+    right: 0vw;
+    top: 0vh;
+    width: 20vw;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: lightgray;
+    border-left: 1px black solid;
+}
+
+.right-container-object {
+    position: relative;
+    font-style: oblique;
+    background-color: white;
+    border-radius: 10px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.right-container-object:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+body {
+    margin: 0px;
+    overflow-y: hidden;
+    font: 1em sans-serif;
+}
+
+#left-container-top {
+    position: relative;
+    height: 50vh;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(223, 252, 255);
+}
+
+#left-container-top div {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    display: inline-block;
+}
+
+#next-period,
+#returns,
+#day-type {
+    color: darkgrey;
+    font-size: 1.33em;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
+
+#time {
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.odd {
+    background-color: rgb(243, 254, 255);
+}
+
+.odd:hover{
+    background-color: rgb(223, 252, 255);
+}
+
+.even {
+    background-color: rgb(255, 230, 230);
+}
+
+.even:hover {
+    background-color: rgb(255, 210, 210);
+}
+
+.none {
+    background-color: rgb(193, 193, 193);
+}
