@@ -1,4 +1,3 @@
-console.log("upd")
 async function getSchedule() {
     return new Promise((resolve, reject) => {
         let schedule = "https://raw.githubusercontent.com/dylann123/file-dump/main/schedule.json"
@@ -17,7 +16,7 @@ async function getSchedule() {
 
 async function getICal() {
     return new Promise((resolve, reject) => {
-        let calendar = "https://www.calendarwiz.com/CalendarWiz_iCal.php?crd=wtw22-23"
+        let calendar = "https://raw.githubusercontent.com/dylann123/file-dump/main/calendar.ics"
 
         fetch(calendar)
             .then(data => data.text() )
