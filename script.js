@@ -1,3 +1,4 @@
+console.log("upd")
 async function getSchedule() {
     return new Promise((resolve, reject) => {
         let schedule = "https://raw.githubusercontent.com/dylann123/file-dump/main/schedule.json"
